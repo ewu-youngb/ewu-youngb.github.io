@@ -1,10 +1,29 @@
+/*Typography*/
+
+
+/* Home */
+.home h1
+{
+	color: red;
+
+}
+
+/* Bio & Resume*/
+.bio h1
+{
+	color: green;
+
+}
+
+/* Portfolio */
+
 body
 {
 	background: #4060ff;
 
 }
 img 
-	{
-		width:320px;
+{
+	width:320px;
 
-	}
+}
