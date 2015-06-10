@@ -1,10 +1,46 @@
 /*Typography*/
 
 
+/* Nav */
+.navigation li {
+	list-style: none;
+	display: inline-block;
+}
+
+.navigation a {
+  background: forestgreen;
+  color: #fff;  
+  padding: 1em;  
+  display: inline-block;
+  height: 1em;
+  line-height: 1em;  
+  text-decoration: none;
+  text-transform: uppercase;   
+  transition: height .2s,
+    border-bottom .2s,
+    letter-spacing .75s;
+}
+
+.navigation a:hover {  
+  height: 1.5em;
+  color: #000;
+  border-bottom: .5em #000 double;
+  /*line-height: 3em;*/
+  letter-spacing: 4px;
+}
+
+
 /* Home */
+.home {
+	background: lightgreen;
+	margin: 2%;
+}
+
+
+
 .home h1
 {
-	color: red;
+	color: green;
 
 }
 
@@ -44,13 +80,15 @@
 
 /* Portfolio */
 
-body
+.portfolio 
 {
-	background: white;
-
+	background: lightgreen;
+	margin: 2%;
 }
-img 
-{
+.portfolio h1 {
+	color: darkgreen;
+}
+.portfolio img {
 	width:320px;
-
+	
 }
