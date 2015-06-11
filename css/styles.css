@@ -99,7 +99,16 @@
 .portfolio h1 {
 	color: green;
 }
+.portfolio div {
+	background: limegreen;
+	border-radius: 2%;
+}
 .portfolio img {
-	width:320px;
+	vertical-align: text-top;
+	width: 45%;
+	padding: 2%;
+	border-radius: 5px;
+	
+	
 	
 }
