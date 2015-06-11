@@ -127,3 +127,24 @@
 	border-radius: 5px;
 	
 }
+
+
+
+/* Contact Me */
+
+.contact 
+{
+	background: lightgreen;
+	margin: 2%;
+}
+.contact a{
+	text-decoration: none;
+}
+.contact h1 {
+	color: green;
+	text-shadow: 2px 2px 2px black;
+}
+.contact h2 {
+	color: darkgreen;
+	text-shadow: 1px 1px 1px black;
+}
