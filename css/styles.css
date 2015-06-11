@@ -41,9 +41,6 @@
 	background: lightgreen;
 	margin: 2%;
 }
-
-
-
 .home h1 {
 	color: green;
 	text-shadow: 2px 2px 2px black;
@@ -53,12 +50,19 @@
 	color: darkgreen;
 	text-shadow: 1px 1px 1px black;
 }
-
+.home p {
+	width: 75%;
+	max-width: 900px;
+}
 /* Bio & Resume*/
 
 .bio {
 	background: lightgreen;
 	margin: 2%;
+}
+.bio p {
+	width: 75%;
+	max-width: 900px;
 }
 .bio a {
 	text-decoration: none;
